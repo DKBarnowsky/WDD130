@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+    --primary-color: #8ECAE6;
+    --secondary-color:  #219EBC;
+    --accent1-color:  #023047;
+    --accent2-color: #FFB703;
+
+    --heading-font:  'Oswald', sans-serif;
+    --paragraph-font:  'Oswald', sans-serif;
+    
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--accent2-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: var(--accent2-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin: 2rem;
+}
+
+p {
+    padding: 25px;
+    color: var(--accent1-color)
+}
+
+article {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+}
+
+ h1, article {
+    position: absolute;
+    z-index: 2;
+}
+
+
+section img {
+   max-width: 500px;
+    height: auto;
+    z-index: -1;
+}
+
+/* class selectors */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+}
+.hero{
+    position: relative;
+    display: inline-block;
+}
+
+.happyguy {
+    position: relative;
+    z-index: -10;
+}
+
+#logo {
+    max-width: 15%;
+}
