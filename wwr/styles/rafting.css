@@ -40,14 +40,12 @@ article {
 
  h1, article {
     position: absolute;
-    z-index: 2;
 }
 
 
 section img {
    max-width: 500px;
     height: auto;
-    z-index: -1;
 }
 
 /* class selectors */
@@ -55,16 +53,11 @@ section img {
     display: block;
     width: 100%;
     height: auto;
-    z-index: -10;
-}
-.hero{
     position: relative;
-    display: inline-block;
 }
-
-.happyguy {
-    position: relative;
-    z-index: -10;
+.hero {
+    position: absolute;
+   
 }
 
 #logo {
