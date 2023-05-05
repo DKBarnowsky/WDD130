@@ -15,6 +15,7 @@
     --nav-hover-background-color: var(--accent2-color);
 }
 
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -34,14 +35,30 @@ p {
 }
 
 article {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color) ;
     color: var(--accent1-color);
+    width: 50%;
+    height: auto;
+    left: 65px;
 }
 
- h1, article {
+div article {
     position: absolute;
+    bottom: 100px;
+
 }
 
+article img {
+    float: right;
+    width: 50%;
+    height: auto;
+
+}
+
+div h1 {
+    position: absolute;
+    width: 50%;
+}
 
 section img {
    max-width: 500px;
@@ -49,15 +66,15 @@ section img {
 }
 
 /* class selectors */
+.hero {
+    position: relative;
+    left: 175px;
+    }
+
 .hero img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    position: relative;
-}
-.hero {
-    position: absolute;
-   
 }
 
 #logo {
